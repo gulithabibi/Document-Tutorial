@@ -1,0 +1,19 @@
+1. Find and Connect to Thousands of APIs
+https://rapidapi.com/  
+
+2. Web aplication ,net Core MVC
+https://www.youtube.com/watch?v=4IgC2Q5-yDE&list=PL6n9fhu94yhVkdrusLaQsfERmL_Jh4XmU
+
+3. JWT Authorization in ASP.NET Core 2.1 
+https://www.youtube.com/watch?v=7tgLuJ__ZKU
+
+4. API .Net Core 2.1
+https://www.youtube.com/watch?v=J_MEscBWJYI
+
+5. Belajar spring boor
+https://medium.com/@josedrojasa/building-a-rest-api-using-spring-boot-2-0-69b5f6dd8da4
+
+https://start.spring.io/
+
+6. Rest API using spring boot
+https://medium.com/@josedrojasa/building-a-rest-api-using-spring-boot-2-0-69b5f6dd8da4
