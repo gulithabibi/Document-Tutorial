@@ -23,7 +23,22 @@ GIT: Sebuah VCS(Version control system) untuk mengelola perubahan file di dalam 
 >git commit -m "message in here"
 >git commit -am "message in here"   --> Record changes to the repository and sent comment
 
+git-add - Add file contents to the index
+----------------------------------------
+*SYNOPSIS
+git add [--verbose | -v] [--dry-run | -n] [--force | -f] [--interactive | -i] [--patch | -p]
+	  [--edit | -e] [--[no-]all | --[no-]ignore-removal | [--update | -u]]
+	  [--intent-to-add | -N] [--refresh] [--ignore-errors] [--ignore-missing] [--renormalize]
+	  [--chmod=(+|-)x] [--pathspec-from-file=<file> [--pathspec-file-nul]]
+	  [--] [<pathspec>…​]
 
+	  
+git-rm - Remove files from the working tree and from the index
+--------------------------------------------------------------
+*SYNOPSIS
+git rm [-f | --force] [-n] [-r] [--cached] [--ignore-unmatch]
+	  [--quiet] [--pathspec-from-file=<file> [--pathspec-file-nul]]
+	  [--] [<pathspec>…​]
 
 #Branching and Merging
 
