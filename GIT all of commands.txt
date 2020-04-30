@@ -93,6 +93,17 @@ git log [<options>] [<revision range>] [[--] <path>…​]
 >git remote -v  --> untuk melihat data lebih detil
 >git push -u origin master  --> untuk memasukkan semua file ke dalam github
 
+git-push - Update remote refs along with associated objects
+-----------------------------------------------------------
+*SYNOPSIS
+git push [--all | --mirror | --tags] [--follow-tags] [--atomic] [-n | --dry-run] [--receive-pack=<git-receive-pack>]
+	   [--repo=<repository>] [-f | --force] [-d | --delete] [--prune] [-v | --verbose]
+	   [-u | --set-upstream] [-o <string> | --push-option=<string>]
+	   [--[no-]signed|--signed=(true|false|if-asked)]
+	   [--force-with-lease[=<refname>[:<expect>]]]
+	   [--no-verify] [<repository> [<refspec>…​]]
+
+
 git-remote - Manage set of tracked repositories
 ----------------------------------------------
 *SYNOPSIS
@@ -109,6 +120,14 @@ git remote set-url --delete [--push] <name> <url>
 git remote [-v | --verbose] show [-n] <name>…​
 git remote prune [-n | --dry-run] <name>…​
 git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)…​]
+
+
+git-pull - Fetch from and integrate with another repository or a local branch
+----------------------------------------------------------------------------
+*SYNOPSIS
+git pull [<options>] [<repository> [<refspec>…​]]
+
+
 
 >alias graph="git log --all--decorate --oneline --graph"  --> sma seprit perintah di atas hanya saja dengan alias sehinga lebih singkat.
 >git rm --cached <file>
