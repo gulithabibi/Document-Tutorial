@@ -183,3 +183,17 @@ git fetch --all [<options>]
 >ls --->list yang ada di dalam folder
 >clear
 >mkdir  namfolder  --> untuk buat folder baru
+
+git-rm - Remove files from the working tree and from the index
+--------------------------------------------------------------
+*SYNOPSIS
+git rm [-f | --force] [-n] [-r] [--cached] [--ignore-unmatch]
+	  [--quiet] [--pathspec-from-file=<file> [--pathspec-file-nul]]
+	  [--] [<pathspec>…​]
+	  
+
+git-mv - Move or rename a file, a directory, or a symlink
+---------------------------------------------------------
+*SYNOPSIS
+git mv [-v] [-f] [-n] [-k] <source> <destination>
+git mv [-v] [-f] [-n] [-k] <source> ... <destination directory>
