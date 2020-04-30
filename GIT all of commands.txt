@@ -1,0 +1,104 @@
+Source : https://git-scm.com/docs/git-clone
+GIT: Sebuah VCS(Version control system) untuk mengelola perubahan file di dalam folder
+
+
+
+#Setup and Config
+>git help  --> Untuk melihat bantuan
+>git --version  -->untuk melihat version git
+>git config
+>gtt config --list
+>git config --global user.email "gulit@gamil.com"    
+>git config --global user.name "Gulit"
+
+#Getting and Creating Projects
+>git init
+>git clone [reference]
+
+#Basic Snapshotting
+>git add <file(s)>  -->memeindahkan ke staging area satu eprsatu 
+>gid add .  --> memindahkan ke staging area sekali semua file yang dirubah ada baru
+>git status
+>git diff [<options>] [<commit>] [--] [<path>…​] - Show changes between commits, commit and working tree, etc
+>git commit -m "message in here"
+>git commit -am "message in here"   --> Record changes to the repository and sent comment
+
+
+
+#Branching and Merging
+
+git-branch - List, create, or delete branches
+---------------------------------------------
+>git branch project1  --> membuat branch baru degan nama project1
+>git branch --merged  --> untuk melihat branch yang sudah di merge
+>git branch -d project1 -->untuk hapus branch
+
+
+
+*SYNOPSIS
+git branch [--color[=<when>] | --no-color] [--show-current]
+	[-v [--abbrev=<length> | --no-abbrev]]
+	[--column[=<options>] | --no-column] [--sort=<key>]
+	[(--merged | --no-merged) [<commit>]]
+	[--contains [<commit]] [--no-contains [<commit>]]
+	[--points-at <object>] [--format=<format>]
+	[(-r | --remotes) | (-a | --all)]
+	[--list] [<pattern>…​]
+git branch [--track | --no-track] [-f] <branchname> [<start-point>]
+git branch (--set-upstream-to=<upstream> | -u <upstream>) [<branchname>]
+git branch --unset-upstream [<branchname>]
+git branch (-m | -M) [<oldbranch>] <newbranch>
+git branch (-c | -C) [<oldbranch>] <newbranch>
+git branch (-d | -D) [-r] <branchname>…​
+git branch --edit-description [<branchname>]
+
+git-checkout - Switch branches or restore working tree files
+-------------------------------------------------------------
+git-checkout - Switch branches or restore working tree files
+*SYNOPSIS
+git checkout [-q] [-f] [-m] [<branch>]
+git checkout [-q] [-f] [-m] --detach [<branch>]
+git checkout [-q] [-f] [-m] [--detach] <commit>
+git checkout [-q] [-f] [-m] [[-b|-B|--orphan] <new_branch>] [<start_point>]
+git checkout [-f|--ours|--theirs|-m|--conflict=<style>] [<tree-ish>] [--] <pathspec>…​
+git checkout [-f|--ours|--theirs|-m|--conflict=<style>] [<tree-ish>] --pathspec-from-file=<file> [--pathspec-file-nul]
+git checkout (-p|--patch) [<tree-ish>] [--] [<pathspec>…​]
+
+
+
+Log - Show commit logs
+-------------------------
+>git log
+>git log --test.txt     -->untuk melihat log file tertentu
+>git log --all--decorate --oneline --graph
+
+*SYNOPSIS
+git log [<options>] [<revision range>] [[--] <path>…​]
+
+
+#Sharing and Updating Projects
+>git remote
+>git remote add origin <url repo dri github>  -->untuk memasukkan repo di local ke github 
+>git remote -v  --> untuk melihat data lebih detil
+>git push -u origin master  --> untuk memasukkan semua file ke dalam github
+
+
+>alias graph="git log --all--decorate --oneline --graph"  --> sma seprit perintah di atas hanya saja dengan alias sehinga lebih singkat.
+>git rm --cached <file>
+>git checkout <posisi branch>   -->untuk membuat posisi aktif
+
+
+git-fetch - Download objects and refs from another repository
+-------------------------------------------------------------
+*SYNOPSIS
+git fetch [<options>] [<repository> [<refspec>…​]]
+git fetch [<options>] <group>
+git fetch --multiple [<options>] [(<repository> | <group>)…​]
+git fetch --all [<options>]
+
+
+#Common
+>pwd
+>ls --->list yang ada di dalam folder
+>clear
+>mkdir  namfolder  --> untuk buat folder baru
