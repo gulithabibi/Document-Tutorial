@@ -52,6 +52,17 @@ git branch (-c | -C) [<oldbranch>] <newbranch>
 git branch (-d | -D) [-r] <branchname>…​
 git branch --edit-description [<branchname>]
 
+
+git-merge - Join two or more development histories together
+-----------------------------------------------------------
+*SYNOPSIS
+git merge [-n] [--stat] [--no-commit] [--squash] [--[no-]edit]
+	[--no-verify] [-s <strategy>] [-X <strategy-option>] [-S[<keyid>]]
+	[--[no-]allow-unrelated-histories]
+	[--[no-]rerere-autoupdate] [-m <msg>] [-F <file>] [<commit>…​]
+git merge (--continue | --abort | --quit)
+
+
 git-checkout - Switch branches or restore working tree files
 -------------------------------------------------------------
 git-checkout - Switch branches or restore working tree files
