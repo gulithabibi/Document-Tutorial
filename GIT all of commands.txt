@@ -2,6 +2,21 @@ Source : https://git-scm.com/docs/git-clone
 GIT: Sebuah VCS(Version control system) untuk mengelola perubahan file di dalam folder
 
 
+#create a new repository on the command line
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/gulithabibi/test.git
+git push -u origin main
+
+
+#push an existing repository from the command line
+git remote add origin https://github.com/gulithabibi/test.git
+git branch -M main
+git push -u origin main
+
 
 #Setup and Config
 >git help  --> Untuk melihat bantuan
