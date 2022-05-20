@@ -212,3 +212,6 @@ git-mv - Move or rename a file, a directory, or a symlink
 *SYNOPSIS
 git mv [-v] [-f] [-n] [-k] <source> <destination>
 git mv [-v] [-f] [-n] [-k] <source> ... <destination directory>
+
+#git revert -m <number-of-commits-to-be-rolled-back> <commit-hash-for-the-merge>
+git revert -m 1 57ff879.
