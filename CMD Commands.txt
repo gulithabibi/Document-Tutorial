@@ -1,0 +1,2 @@
+#Untuk melhat list sebuah folder
+>dir
